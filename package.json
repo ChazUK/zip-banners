@@ -1,0 +1,20 @@
+{
+  "name": "zip-banners",
+  "version": "1.0.0",
+  "description": "A command-line tool to zip all folders for a banner campaign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zip-banners": "./index.js"
+  },
+  "author": "Charlie Francis",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "chalk": "^2.4.2",
+    "ora": "^4.0.2",
+    "rimraf": "^3.0.0"
+  }
+}
