@@ -1,6 +1,6 @@
 {
   "name": "zip-banners",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line tool to zip all folders for a banner campaign",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "author": "Charlie Francis",
   "license": "ISC",
   "dependencies": {
+    "ansi-regex": ">=5.0.1",
     "archiver": "^3.1.1",
     "chalk": "^2.4.2",
     "ora": "^4.0.2",
